@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Home</title> 
+</head>
+<body>
+    <div class="divcentralizada">
+    <img id="imagemperfil" width="250px" src="imagens/isaac.jpg" alt="Imagem Isaac Newton">
+    </div>
+    <div class="divcentralizada">
+    <h1>Inscrição para concurso de física</h1>
+    </div>
+    <form action="http://www.google.com.br" target="_blank"> <!-- target="_blank" abre outra página-->
+        <div class="divtexto">
+        <label for="inputnome">Nome:</label><br>
+    <input class="inputsmeiatela" type="text" id="inputnome" name="inputnome" placeholder="Digite seu Nome" required><br>
+    </div>
+        <div class="divtexto">
+            <label for="inputemail">e-mail:</label><br>
+            <input class="inputsmeiatela" type="email" name="inputemail" id="inputemail" autocomplete="off" placeholder="Digite seu e-mail" required>
+        </div>
+        <div class="divtexto">
+            <label for="inputdatanascimento">Data de Nascimento:</label><br>
+            <input class="inputsmeiatela" type="date" name="inputdatanascimento" id="inputdatanascimento">
+        </div>
+        <div class="divtexto">
+            <label for="inputfile">Upload do RG:</label><br>
+            <input class="inputsmeiatela" type="file" id="inputfile" name="inputfile" required>
+        </div>
+        <div class="divtexto">
+            <label for="inputtelefone">Telefone:</label><br>
+            <input class="inputsmeiatela" type="tel" name="inputtelefone" id="inputtelefone" placeholder="Digite seu Telefone">
+        </div>
+        <div class="divtexto">
+            <label for="inputcorfavorita">Selecione sua cor favorita:</label><br>
+            <input type="color" name="inputcorfavorita" id="inputcorfavorita">
+        </div>
+        <div class="divtexto">
+            <label for="inputidade">Digite a sua idade:</label><br>
+            <input type="number" name="inputidade" id="inputidade"placeholder="Digite a sua idade">
+        </div>
+        <div class="divtexto">
+            <label for="inputsenha">Digite a sua senha:</label><br>
+            <input class="inputsmeiatela" type="password" name="inputsenha" id="inputsenha" placeholder="Digite a sua senha" required>
+        </div>
+        <div class="divtexto">
+            <label for="inputlistaturma">Selecione uma turma:</label><br>
+            <input class="inputsmeiatela" 
+            list="turmas">
+            <datalist id="turmas">
+                <option value="Manhã"></option>
+                <option value="Tarde"></option>
+                <option value="Noite"></option>
+                <option value="Sábado"></option>
+            </datalist>
+
+            <div class="divtexto">
+            <h3>Refeições do seu dia</h3>
+            <input type="checkbox" name="inputcheckboxref1" id="inputcheckboxref1" value="Cafe">
+            <label for="inputcheckboxref1">Café da manhã</label><br>
+            <input type="checkbox" name="inputcheckboxref2" id="inputcheckboxref2" value="almoco">
+            <label for="inputcheckboxref2">Almoço</label><br>
+            <input type="checkbox" name="inputcheckboxref3" id="inputcheckboxref3" value="janta">
+            <label for="inputcheckboxref3">Janta</label>
+            </div>
+
+            <div class="divtexto">
+                <h3>Estado civil</h3>
+                <input type="radio" name="inputradio1" id="inputradio1" value="solteiro">
+                <label for="inputradio1">Solteiro</label><br>
+                <input type="radio" name="inputradio2" id="inputradio2" value="casasdo">
+                <label for="inputradio2">Casado</label><br>
+                <input type="radio" name="inputradio3" id="inputradio3" value="viuvo">
+                <label for="inputradio3">Viúvo</label>
+            </div>
+
+            <div class="divtexto">
+            <label for="diastrabalho">Dias que você trabalha</label>
+            <select name="diastrabalho" id="diastrabalho">
+                <option value="Segunda">Segunda</option>
+                <option value="Terca">Terça</option>
+                <option value="Quarta">Quarta</option>
+                <option value="Nenhum" selected="true">Selecione uma opção</option>
+            </select>
+            </div>
+
+        </div>
+        <div class="divtexto">
+        <input type="submit" value="Cadastrar">
+    </div>
+
+    </form>
+
+    <button type="button" onclick="alert('Olá mundo')">Testar JavaScript</button>
+</body>
+</html>

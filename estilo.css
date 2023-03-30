@@ -1,0 +1,22 @@
+#imagemperfil {  /*cria com # quando tá vinculado ao id*/
+    border-radius: 30px;
+}
+
+.divcentralizada {  /*quando está vinculado a classe chama com o ponto*/
+    text-align: center;
+}
+
+.divtexto {
+    padding-left: 10px;
+    padding-top: 10px; /*serve para separar uma div entre a outra entre o espaçamento*/
+    background-color: rgb(219, 190, 242);
+   /* text-align: center;  deixou todo o texto alinhado */
+}
+
+label {
+    padding-bottom: 10px;
+}
+
+.inputsmeiatela {
+    width: 50%;
+}
